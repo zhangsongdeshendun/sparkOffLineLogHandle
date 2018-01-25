@@ -24,6 +24,7 @@ object StatRefererPV {
 
   def main(args: Array[String]): Unit = {
 
+
     val conf = new SparkConf().setMaster("local[2]").setAppName("StatRefererPV")
 
     val sc = new SparkContext(conf)
